@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+
+
+body{
+    background-color: #F8E6F3;
+    background-image: url('Barbie\ Aesthetic\ iPhone\ wallpaper\,\ iPhone\ wallpaper\ girly\,\ iPhone\ wallpaper\ y2k\,\ Pink\ Aesthetic.jpeg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    color: #AD668F; 
+      
+}
+
+#heart { 
+    position: relative; 
+    width: 100px; 
+    height: 90px; 
+    margin-left: 10px;
+    
+} 
+
+#heart:before, #heart:after { 
+    position: absolute; 
+    content: ""; 
+    left: 50px; 
+    top: 0; 
+    width: 50px; 
+    height: 80px; 
+    background: #E9748E; 
+    border-radius: 50px 50px 0 0; 
+    transform: rotate(-45deg); 
+    transform-origin: 0 100%; 
+} 
+
+#heart:after { 
+    left: 0; 
+    transform: rotate(45deg); 
+    transform-origin :100% 100%; 
+}
+
+.nav-bar{
+    padding-left: 15px;
+    padding-right: 15px;
+    display: block;
+}
+
+.nav-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+li{
+    list-style: none;
+    display: inline-block;
+   
+}
+.divv li a{
+    color: #E9748E;
+    font-size: 25px;
+    font-weight: 400;
+    margin-right: 40px;
+    padding-right: 20px;
+    transition: 1.5s;
+    letter-spacing: 1px;
+    border-radius: 90px;
+}
+a:hover{
+    color: black;
+    box-shadow: 0 0 10px #AD668F,
+                0 0 40px #AD668F,
+                0 0 80px #AD668F;
+}
+
+.dashed-line {
+    border-top: 4px dashed #E9748E; 
+    margin-top: -28px; 
+}
+
+
+.main {
+    position: fixed;
+    bottom: 20px; 
+    left: 40px; 
+    right: 40px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+}
+
+.second {
+    position: relative;
+    margin-right: auto; 
+    max-width: 50%;
+   
+}
+#second h1 {
+    font-size: 80px; 
+    color: #E9748E;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .nav-div{
+    display: flex;
+    flex-direction: column;
+  }
+  .nav-div .divv{
+    display: flex;
+    flex-direction: column;
+    width: 100% !important;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .dashed-line{
+    display: none;
+  }
+  body{
+    background-size: auto;
+  }
+   .main{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: -20px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 40px;
+    margin-top: 40px;
+   }
+   #second h1 {
+    font-size: 30px; 
+    color: #E9748E;
+}
+.main img{
+    height: 200px;
+    width: 200px;
+
+}
+
+
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}

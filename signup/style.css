@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+
+body {
+    background-color: #F8E6F3;
+    color: #AD668F; 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+    background: url(h.jpeg);
+} 
+
+a {
+    text-decoration: none;
+    color: #AD668F;
+}
+
+
+.wrapper {
+    width: 720px;
+    background: transparent;
+    border: 2px solid #AD668F;
+    border-radius: 10px;
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    padding: 40px 35px 55px;
+    height: auto; 
+    max-width: 90%; 
+}
+
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper .input-box {
+    position: relative;
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.input-box .input-field input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid #AD668F;
+    border-radius: 6px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 16px;
+    padding: 15px 15px 15px 40px;
+    
+}
+
+ .input-box input::placeholder{
+    color: #AD668F ;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    
+}
+.input-field{
+    margin: 13px 0;
+    position: relative;
+    width: 50%;
+    height: 50px;
+}
+
+.input-box .input-field i{
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+.wrapper label{
+    display: inline-block;
+    font-size: 14.5px;
+    margin: 10px 0 23px;
+
+}
+.wrapper label input{
+    accent-color: #af4999;
+    margin-right: 5px;
+}
+.wrapper .btn{
+    width: 100%;
+    height: 45px;
+    background: #AD668F;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 10px #AD668F;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    color:#F8E6F3;
+    font-weight: 600;
+    text-align: center;
+}
+
+.register-link a{
+    font-weight: 600;
+
+}
+.register-link{
+    margin-top: 10px;
+}
